@@ -3,18 +3,18 @@ Our Linux starter-kit repository contains Vagrant VM configurations and Shell sc
 
 ## Supported Linux Distributions
 The repository supports the following Linux distributions:
-Alma Linux 8 and 9
-Amazon Linux 2
-CentOS 7
-Rocky Linux 8 and 9
-Ubuntu 18.04 and 22.04
++ Alma Linux 8 and 9
++ Amazon Linux 2
++ CentOS 7
++ Rocky Linux 8 and 9
++ Ubuntu 18.04 and 22.04
 
 ## Supported Platforms
 This repository is compatible with the following operating systems:
 
-macOS
-Windows
-Linux
++ macOS
++ Windows
++ Linux
 
 ## Prerequisites
 Before you begin, ensure that you have the following prerequisites installed on your system:
