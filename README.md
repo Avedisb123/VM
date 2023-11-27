@@ -19,7 +19,8 @@ This repository is compatible with the following operating systems:
 ## Prerequisites
 Before you begin, ensure that you have the following prerequisites installed on your system:
  
-Note: Make sure to disable Secure Boot from your machine BIOS settings. If there is a Virtualization Technologies option available on BIOS settings, then please enable it to avoid unwanted issues when building VMs.
+> [!NOTE]
+Make sure to disable Secure Boot from your machine BIOS settings. If there is a Virtualization Technologies option available on BIOS settings, then please enable it to avoid unwanted issues when building VMs.
 
 1. **VirtualBox** (for all platforms)
   - Linux Ubuntu: [How to install VirtualBox on Linux Ubuntu host machine?](https://sloopstash.zohodesk.com/portal/en/kb/articles/how-to-install-virtualbox-on-linux-ubuntu-18-04-desktop-machine)
@@ -33,4 +34,34 @@ Note: Make sure to disable Secure Boot from your machine BIOS settings. If there
 
 3. **Git Bash** (for only Windows)
   - Windows 10/11: [How to install and configure Git Bash on Windows host machine?](https://sloopstash.zohodesk.com/portal/en/kb/articles/how-to-install-configure-git-bash-on-windows-10-11-desktop-machine)
-    
+
+## Getting Started
+
+To build Ubuntu 18.04, use the following steps: 
+
+```
+# Boot Linux Ubuntu 18.04 VM using Vagrant.
+$ VAGRANT_CWD=./vagrant/ubuntu-18-04/virtualbox/amd64/server vagrant up
+```
+```
+# SSH to Linux Ubuntu 18.04 VM using Vagrant.
+$ VAGRANT_CWD=./vagrant/ubuntu-18-04/virtualbox/amd64/server vagrant ssh
+```
+```
+# Exit from Linux Ubuntu 18.04 VM.
+$ exit
+```
+```
+# Halt Linux Ubuntu 18.04 VM using Vagrant.
+$ VAGRANT_CWD=./vagrant/ubuntu-18-04/virtualbox/amd64/server vagrant halt
+```
+
+Similarly, you can build Alma Linux 8 and 9, Amazon Linux 2, CentOS 7, Rocky Linux 8 and 9, and Ubuntu 22.04 server VMs.
+
+# License
+Distributed under the MIT License. See LICENSE.txt for more information.
+
+# Contact
+Sloopstash - support[@]sloopstash[.]com
+
+
