@@ -58,8 +58,11 @@ $ VAGRANT_CWD=./vagrant/ubuntu-18-04/virtualbox/amd64/server vagrant halt
 
 Similarly, you can build Alma Linux 8 and 9, Amazon Linux 2, CentOS 7, Rocky Linux 8 and 9, and Ubuntu 22.04 server VMs.
 
+# Contributing
+We welcome contributions! If you find a bug, have a feature request, or want to contribute in any way, please [create an issue](https://github.com/sloopstash/kickstart-linux/issues) or submit a [pull request](https://github.com/sloopstash/kickstart-linux/pulls).
+
 # License
-Distributed under the MIT License. See LICENSE.txt for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/sloopstash/kickstart-linux/blob/master/LICENSE) for more information.
 
 # Contact
 Sloopstash - support[@]sloopstash[.]com
