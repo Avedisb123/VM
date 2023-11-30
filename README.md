@@ -37,6 +37,17 @@ Make sure to disable Secure Boot from your machine BIOS settings. If there is a 
 
 ## Getting Started
 
+### Download Starter-kits from GitHub
+
+```
+# Download Linux starter-kit from GitHub to local filesystem path.
+$ git clone https://github.com/your-username/kickstart-linux.git
+
+# Switch to Linux starter-kit directory.
+$ cd kickstart-linux
+
+```
+
 To build Ubuntu 18.04, use the following steps: 
 
 ```
