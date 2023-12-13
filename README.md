@@ -67,8 +67,7 @@ $ exit
 $ VAGRANT_CWD=./vagrant/ubuntu-18-04/virtualbox/amd64/server vagrant halt
 ```
 
-Similarly, you can build Alma Linux 8 and 9, Amazon Linux 2, CentOS 7, Rocky Linux 8 and 9, and Ubuntu 22.04 server VMs.
-
+Similarly, you can build Alma Linux 8 and 9, Amazon Linux 2, CentOS 7, Rocky Linux 8 and 9, and Ubuntu 22.04 server VMs.For more detailed documentation, please visit the [Kickstart-Linux Wiki](https://github.com/sloopstash/kickstart-linux/wiki) on our GitHub repository. The wiki provides additional information, troubleshooting guides, and useful tips to enhance your experience with the Kickstart-Linux Repository.
 # Contributing
 We welcome contributions! If you find a bug, have a feature request, or want to contribute in any way, please [create an issue](https://github.com/sloopstash/kickstart-linux/issues) or submit a [pull request](https://github.com/sloopstash/kickstart-linux/pulls).
 
